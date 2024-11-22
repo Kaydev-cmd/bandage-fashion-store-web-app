@@ -1,5 +1,6 @@
 import React from "react";
 import { Hero } from "../../components/Hero";
+import { ExploreItemsCards } from "../../components/ExploreItemsCards";
 
 export const Home = () => {
   return (
@@ -7,6 +8,7 @@ export const Home = () => {
       <Hero />
       <div className="container">
         <div className="content">
+          {/* Icons */}
           <div className="flex items-center justify-around mt-20">
             <img
               src="/images/home/col-md-2.png"
@@ -34,6 +36,9 @@ export const Home = () => {
               className="lg:w-[60px] xs:w-[40px]"
             />
           </div>
+
+          {/* Explore Items */}
+          <ExploreItemsCards />
         </div>
       </div>
     </>
