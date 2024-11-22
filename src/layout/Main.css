@@ -50,6 +50,18 @@ p {
   font-size: 16px;
 }
 
+.cartIcon,
+.heartIcon,
+.searchIcon {
+  transition: 0.3s ease-in-out;
+}
+
+.cartIcon:hover,
+.searchIcon:hover,
+.heartIcon:hover {
+  fill: #000;
+}
+
 /* Responsive */
 
 /* 2xl */
