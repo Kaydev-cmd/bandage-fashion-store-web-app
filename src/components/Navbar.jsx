@@ -18,10 +18,10 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <section className="navbar">
         <div className="bg-[#252B42] lg:hidden">
           <div className="container">
-            <div className="flex justify-between p-4  text-white">
+            <div className="flex justify-between p-4 text-white">
               <div className="flex gap-6">
                 <div className="flex items-center gap-1">
                   <MdOutlineLocalPhone />
@@ -62,8 +62,8 @@ export const Navbar = () => {
 
         <div className="bg-white">
           <div className="container">
-            <div className="flex justify-between items-center p-4">
-              <div className="flex gap-16 items-center lg:gap-11">
+            <div className="flex items-center justify-between p-4">
+              <div className="flex items-center gap-16 lg:gap-11">
                 <a href="/">
                   <h1 className="text-[22px] normal-case font-extrabold text-[#252B42] lg:text-[18px]">
                     Bandage
@@ -150,7 +150,7 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

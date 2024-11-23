@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hero-swiper {
-  --swiper-pagination-color: #2dc071;
+  --swiper-pagination-color: #fff;
   --swiper-pagination-bullet-inactive-color: #4d4d4d;
   --swiper-pagination-bullet-size: 12px;
 }

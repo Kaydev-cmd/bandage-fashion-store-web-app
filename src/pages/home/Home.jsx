@@ -10,7 +10,7 @@ export const Home = () => {
       <div className="container">
         <div className="content">
           {/* Icons */}
-          <div className="flex items-center justify-around mt-20">
+          <section className="flex items-center justify-around mt-20">
             <img
               src="/images/home/col-md-2.png"
               alt="Hooli"
@@ -36,13 +36,13 @@ export const Home = () => {
               alt="Reddit"
               className="lg:w-[60px] xs:w-[40px]"
             />
-          </div>
+          </section>
 
           {/* Explore Items */}
           <ExploreItemsCards />
 
           {/* Best Sellers */}
-          <div className="mt-24">
+          <section className="mt-24">
             <div className="content">
               <div className="text-center">
                 <h4 className="text-[#737373]">Featured Products</h4>
@@ -61,7 +61,44 @@ export const Home = () => {
                 </button>
               </div>
             </div>
-          </div>
+          </section>
+
+          {/* What we do */}
+          <section className="mt-24">
+            <div className="flex items-center justify-around xl:gap-16 sm:flex-col-reverse">
+              <img
+                src="/images/home/hero-cover-212a.png"
+                alt="Banner"
+                className="lg:w-[360px] md:w-[300px] sm:w-[100%]"
+              />
+              <div className="flex flex-col gap-2 sm:text-center">
+                <h4 className="text-[16px] text-[#23A6F0]">
+                  Featured Products
+                </h4>
+                <h3 className="text-[#252B42] text-[38px] font-bold lg:text-[28px] sm:text-[38px] xs:text-[28px]">
+                  We love what we do
+                </h3>
+                <p className="text-[#737373] mb-2 xl:text-[14px]">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  <br />
+                  Nulla commodi, accusantium fuga suscipit eaque fugiat incidunt
+                  <br />
+                  ab qui, ad, nemo aperiam sint. Ipsam maxime eaque, assumenda
+                  et
+                  <br />
+                </p>
+                <p className="text-[#737373] xl:text-[14px]">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  <br />
+                  Nulla commodi, accusantium fuga suscipit eaque fugiat incidunt
+                  <br />
+                  ab qui, ad, nemo aperiam sint. Ipsam maxime eaque, assumenda
+                  et
+                  <br />
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </>
