@@ -1,6 +1,7 @@
 import React from "react";
 import { Hero } from "../../components/Hero";
 import { ExploreItemsCards } from "../../components/ExploreItemsCards";
+import { FeaturedProductsCards } from "../../components/FeaturedProductsCards";
 
 export const Home = () => {
   return (
@@ -39,6 +40,23 @@ export const Home = () => {
 
           {/* Explore Items */}
           <ExploreItemsCards />
+
+          {/* Best Sellers */}
+          <div className="mt-24">
+            <div className="content">
+              <div className="text-center">
+                <h4 className="text-[#737373]">Featured Products</h4>
+                <h3 className="text-[#252B42] uppercase font-bold">
+                  Bestseller Products
+                </h3>
+                <p className="text-[#737373]">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus, placeat!
+                </p>
+              </div>
+              <FeaturedProductsCards />
+            </div>
+          </div>
         </div>
       </div>
     </>
