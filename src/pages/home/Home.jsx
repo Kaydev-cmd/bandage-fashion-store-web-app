@@ -99,6 +99,56 @@ export const Home = () => {
               </div>
             </div>
           </section>
+
+          {/* Services */}
+          <section className="mt-24">
+            <div className="content">
+              <div className="text-center">
+                <h4 className="text-[#737373]">Featured Products</h4>
+                <h3 className="text-[#252B42] uppercase font-bold">
+                  The best services
+                </h3>
+                <p className="text-[#737373]">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati, placeat!
+                </p>
+              </div>
+              <div className="flex justify-around mt-24 lg:gap-12 md:gap-14 sm:flex-col sm:items-center">
+                <div className="text-center w-[260px] flex flex-col items-center gap-2">
+                  <img
+                    src="/images/home/bx_bxs-book-reader.png"
+                    alt="Reading"
+                  />
+                  <h5 className="font-bold text-[22px]">Easy Wins</h5>
+                  <p className="text-[#737373] lg:text-[14px]">
+                    Get your best looking smile
+                    <br />
+                    now!
+                  </p>
+                </div>
+                <div className="text-center w-[260px] flex flex-col items-center gap-2">
+                  <img src="/images/home/carbon_book.png" alt="Reading" />
+                  <h5 className="font-bold text-[22px]">Concrete</h5>
+                  <p className="text-[#737373] lg:text-[14px]">
+                    Defalcate is most focused in
+                    <br />
+                    helping you discover your most
+                    <br />
+                    beautiful smile
+                  </p>
+                </div>
+                <div className="text-center w-[260px] flex flex-col items-center gap-2">
+                  <img src="/images/home/uil_arrow-growth.png" alt="Reading" />
+                  <h5 className="font-bold text-[22px]">Hack Growth</h5>
+                  <p className="text-[#737373] lg:text-[14px]">
+                    Overcame any hurdle or any
+                    <br />
+                    other problem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </>
