@@ -55,6 +55,11 @@ export const Home = () => {
                 </p>
               </div>
               <FeaturedProductsCards />
+              <div className="flex justify-center mt-16">
+                <button className="py-3 px-6 border border-[#23A6F0] rounded-[8px] text-[#23A6F0] hover:bg-[#23A6F0] hover:text-[#fff]">
+                  Load More Products
+                </button>
+              </div>
             </div>
           </div>
         </div>

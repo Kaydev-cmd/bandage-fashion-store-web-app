@@ -6,8 +6,8 @@ export const FeaturedProductsCards = () => {
       <div className="mt-16">
         <div className="container">
           {/* Upper Wrapper */}
-          <div className="flex justify-around">
-            <div className="w-[180px]">
+          <div className="flex justify-around lg:gap-2 xs:flex-col xs:items-center">
+            <div className="w-[180px] sm:hidden">
               <img src="/images/home/product-cover-5.png" alt="Model" />
               <div className="p-4">
                 <div className="text-center">
@@ -39,7 +39,7 @@ export const FeaturedProductsCards = () => {
               </div>
             </div>
 
-            <div className="w-[180px]">
+            <div className="w-[180px] md:hidden">
               <img src="/images/home/product-cover-7.png" alt="Model" />
               <div className="p-4">
                 <div className="text-center">
@@ -89,8 +89,8 @@ export const FeaturedProductsCards = () => {
           </div>
 
           {/* Lower Wrapper */}
-          <div className="flex justify-around mt-8">
-            <div className="w-[180px]">
+          <div className="flex justify-around mt-8 lg:gap-2 xs:flex-col xs:items-center">
+            <div className="w-[180px] md:hidden">
               <img src="/images/home/product-cover-5.png" alt="Model" />
               <div className="p-4">
                 <div className="text-center">
@@ -106,7 +106,7 @@ export const FeaturedProductsCards = () => {
               </div>
             </div>
 
-            <div className="w-[180px]">
+            <div className="w-[180px] sm:hidden">
               <img src="/images/home/product-cover-10.png" alt="Model" />
               <div className="p-4">
                 <div className="text-center">
